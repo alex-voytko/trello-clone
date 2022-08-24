@@ -1,0 +1,11 @@
+.toolbar {
+  padding: 10px;
+  border: 1px solid $backgroundColor1;
+  margin-top: 2em;
+  button {
+    font-family: "Poppins", sans-serif;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

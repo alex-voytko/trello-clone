@@ -1,0 +1,41 @@
+.boards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  justify-content: space-between;
+  .board {
+    width: 48%;
+    height: 400px;
+    padding: 1em;
+    border: 1px solid $borderColor2;
+    & > h2 {
+      padding: 8px;
+      border-bottom: 1px solid $borderColor1;
+    }
+  }
+  .board-list {
+    margin-top: 20px;
+    .item {
+      padding: 10px;
+      background-color: $backgroundColor1;
+      border-radius: 6px;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      &:last-child {
+        margin-bottom: 100%;
+      }
+      &.selected {
+        outline: 2px solid red;
+      }
+      &:hover,
+      &:hover * {
+        cursor: grab;
+      }
+      p {
+        display: block;
+        width: fit-content;
+      }
+    }
+  }
+}

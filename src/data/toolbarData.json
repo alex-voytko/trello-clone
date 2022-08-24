@@ -1,0 +1,5 @@
+[
+  { "name": "Add", "className": "add-btn" },
+  { "name": "Edit", "className": "edit-btn" },
+  { "name": "Remove", "className": "remove-btn" }
+]

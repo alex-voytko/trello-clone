@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1-board",
+    "name": "In Process",
+    "tasks": [
+      {
+        "id": "123123qwfr",
+        "text": "learn TypeScript"
+      },
+      {
+        "id": "wefwegqewgqe",
+        "text": "write testTask for BeastHeads"
+      },
+      {
+        "id": "13512rgewweg",
+        "text": "end NodeJS course"
+      }
+    ]
+  },
+  {
+    "id": "2-board",
+    "name": "Done!",
+    "tasks": [
+      { "id": "wqegq3323tgh", "text": "finish GOIT School" },
+      { "id": "1r31g3g", "text": "find your first work" }
+    ]
+  }
+]
